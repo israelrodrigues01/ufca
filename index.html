@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio - Ciência da Computação</title>
+	<link rel="stylesheet" href="public/css/style.css">
+	<link rel="stylesheet" href="public/css/mobile.css">
+	<link rel="stylesheet" href="public/css/variaveis.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+	<link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+</head>
+
+<body class="while-mode">
+	<header id="header">
+		<div class="menu flex f-c-b">
+			<span class="menu-logo" data-aos="fade-right">Portfólio</span>
+
+			<nav class="navbar" data-aos="fade-right">
+				<a href="#header" class="active">Início</a>
+				<a href="#sobremim">Sobre o projeto</a>
+				<a href="#projetos">Projetos</a>
+				<a href="#skills">Tecnologias</a>
+			</nav>
+
+			<div class="menu-buttons flex" data-aos="fade-right">
+				<div class="menu-btn-mode"><i class='bx bxs-adjust-alt'></i></div>
+				<div class="menu-btn"><i class='bx bx-menu-alt-right'></i></div>
+			</div>
+		</div>
+
+		<div class="content-width">
+			<div class="header-content flex f-c-b" data-aos="fade-right">
+				<div class="header-content-conteudo">
+					<h1>Olá, esses são os projetos do curso de CC 👨‍💻</h1>
+					<p>Os alunos estão sempre colocando em prática os aprendizados</p>
+					<div class="content-conteudo-buttons flex">
+						<a href="#" class="btn" style="--bg: var(--green); --color: #171717;">GitHub do Projeto</a>
+					</div>
+				</div>
+				<div class="header-content-img">
+					<img src="public/img/ufca-logo.png" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section id="sobremim">
+			<div class="content-width">
+				<h2 class="title_sections text-center" data-aos="fade-right">Sobre o projeto</h2>
+
+				<div class="sobremim-text text-center" data-aos="fade-right">
+					Este portfólio tem como objetivo apresentar uma seleção de projetos desenvolvidos pelos alunos do
+					curso de Ciência da Computação da UFCA. Cada projeto reflete a diversidade e a profundidade do
+					aprendizado dos estudantes ao longo da graduação, desde as primeiras disciplinas até os trabalhos
+					mais avançados.
+				</div>
+				<div class="sobremim-text text-center" data-aos="fade-right">
+					Aqui, você encontrará imagens ilustrativas, descrições breves e links diretos para os repositórios
+					no GitHub, protótipos no Figma e outras plataformas, oferecendo uma visão completa das soluções
+					desenvolvidas. Cada projeto destaca o conhecimento técnico e a criatividade dos alunos ao enfrentar
+					desafios reais e inovadores no campo da computação.
+				</div>
+
+				<div class="sobremim-boxs-infor flex" id="infor-content"></div>
+			</div>
+		</section>
+		<section id="projetos">
+			<div class="content-width">
+				<h2 class="title_sections text-center" data-aos="fade-right">Projetos</h2>
+				<div class="projetos-boxs grid-template" id="projetos-content">
+					<div class="box" data-aos="fade-right">
+						<div class="box-img"><img src="public/img/aprenda_aqui.png" alt=""></div>
+						<div class="box-text">
+							<h3>Aprenda Aqui</h3>
+							<p>Vídeo/Tutoriais construindo aplicações Web</p>
+							<p>Canal no YouTube</p>
+						</div>
+						<div class="box-btn flex">
+							<a href="https://www.youtube.com/c/Aprendaaquitutoriais/featured" target="_blank"
+								class="btn" style="--bg: var(--green); --color: #171717;">Visualizar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- <section id="serviços">
+			<div class="content-width">
+				<h2 class="title_sections text-center" data-aos="fade-right">Serviços</h2>
+
+				<div class="serviços-boxs grid-template" id="services-content">
+				</div>
+			</div>
+		</section> -->
+		<section id="skills">
+			<div class="content-width">
+				<h2 class="title_sections text-center" data-aos="fade-right">Tecnologias que Aprendemos</h2>
+
+				<div class="skills-boxs flex f-c-c" data-aos="fade-right">
+					<div class="box flex f-c-c" title="python"><i class='bx bxl-python'></i></div>
+					<div class="box flex f-c-c" title="java"><i class='bx bxl-java'></i></div>
+					<div class="box flex f-c-c" title="c"><i class='bx bxs-copyright'></i></div>
+					<div class="box flex f-c-c" title="react"><i class='bx bxl-react'></i></div>
+					<div class="box flex f-c-c" title="javascript"><i class='bx bxl-javascript'></i></div>
+					<div class="box flex f-c-c" title="html5"><i class='bx bxl-html5'></i></div>
+					<div class="box flex f-c-c" title="css3"><i class='bx bxl-css3'></i></div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="content-width">
+			<div class="text-center">
+				<h3>Orgulhosamente feito por nós 💚</h3>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="public/script/JSON.js"></script>
+	<script src="public/script/script.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 900,
+			delay: 200
+		})
+	</script>
+</body>
+
+</html>

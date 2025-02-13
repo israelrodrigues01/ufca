@@ -1,0 +1,3 @@
+# Sobre o projeto
+Este portfólio tem como objetivo apresentar uma seleção de projetos desenvolvidos pelos alunos do curso de Ciência da Computação da UFCA. Cada projeto reflete a diversidade e a profundidade do aprendizado dos estudantes ao longo da graduação, desde as primeiras disciplinas até os trabalhos mais avançados.
+Aqui, você encontrará imagens ilustrativas, descrições breves e links diretos para os repositórios no GitHub, protótipos no Figma e outras plataformas, oferecendo uma visão completa das soluções desenvolvidas. Cada projeto destaca o conhecimento técnico e a criatividade dos alunos ao enfrentar desafios reais e inovadores no campo da computação.
